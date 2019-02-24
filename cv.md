@@ -27,4 +27,4 @@ module.exports = function getZerosCount(n, k) {
   return result;
 }
 
-English level: A2 Pre-Intermediate.
+English level: A2 Pre-Intermediate

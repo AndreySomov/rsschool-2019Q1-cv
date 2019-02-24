@@ -8,7 +8,7 @@ About me: Half a year studying js html css and studying Angular right now. Im re
 As an intern, I will study faster and in the future I will benefit the company.
 
 Last code example:
-module.exports = function getZerosCount(n, k) {
+function getZerosCount(n, k) {
   let obj = {}, result=n, cloneK=k;
   for(let i=2; i<=cloneK; i++){
     while(cloneK%i==0){

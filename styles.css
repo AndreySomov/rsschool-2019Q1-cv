@@ -3,42 +3,74 @@
 	padding: 0;
 }
 
-.grid{
-	width: 1024px;
-	height: 1230px;
-	display: grid;
-	grid-template: 200px 1000px / minmax(20px, 1024px);
-	margin: auto;
+@font-face {
+    font-family: 'Exodus';
+    src: url(assets/fonts/Exodus-PersonalUse-Sharpen.otf) format('truetype');
+}
+
+
+body{	
+  background: url(assets/imgs/4.jpg) no-repeat;
+  background-size: cover;
+ 
 }
 
 header{
-	grid-area: 1 / 1 / span 1 / span 1;
-}
-
-.nav{
-	text-align: center;
+	height: 300px;
+	max-width: 1024px;
+	background-color: #312b2faa;
 	margin: auto;
-}
-
-ul {
-	
 	display: flex;
-	list-style-type: none;
-	text-align: center;
-	background-color: gray;
+	justify-content: space-around;
+	align-items: center;
 }
 
-li{
-	width: 100px;
+.img{
+	height: 150px;
+}
+
+
+.title{
+ 	height: 150px;
+ 	color: #cfc5bc;
+ 	font-family: 'Exodus';
+ 	font-size: 20px;
+}
+header img{
+	width: 150px;
+	border-radius: 100%;
+
+}
+
+main{
+	height: 800px;
+	max-width: 1024px;
 	margin: auto;
 }
 
-img{
-	width: 120px;
-	border-radius: 60px 60px;
+.left{
+	background-color: #c2c8c5aa;
+	height: 200px;
+	width: 35%;
 
 }
 
-.git{
-	width: 30px;
+.right{
+	background-color: #808080aa;
+	width: 65%;
+	height: 200px;
 }
+
+section{
+	display: flex;
+}
+
+
+footer{
+	height: 100px;
+	max-width: 1024px;
+	background-color: #312b2faa;
+	margin: auto;
+}
+
+

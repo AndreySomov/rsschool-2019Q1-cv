@@ -8,122 +8,257 @@
     src: url(assets/fonts/Exodus-PersonalUse-Sharpen.otf) format('truetype');
 }
 
+@font-face {
+	font-family: 'TTDrugsThin';
+	src: url(assets/fonts/TTDrugsThin.otf) format('truetype');
+}
+
 body{	
   background: url(assets/imgs/4.jpg) no-repeat;
   background-size: cover;
  
 }
 
+
+/* ------------------------------Header--------------------------------------- */
+
 header{
-	height: 300px;
-  max-width: 1024px;
-	background-color: #312b2faa;
+	height: 250px;
+  width: 1024px;
+	background-color:#000000aa;
 	margin: auto;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	
 }
 
-.line{
-	height: 250px;
-	width: 4px;
-	background:#1e1e1e;
-	position: absolute;
-	transform: rotate(40deg);
-	top:-50px;
-	right: 50%;
+.header-left{
+		width: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-right: 1px solid #fff0bd;
+		border-bottom: 1px solid #fff0bd;
+}
+
+.header-right{
+	widows: 70%;
+	margin: auto;
+	
 }
 
 .contacts{
 	display: flex;
 	width: 300px;
-	display: inline-block;
 	margin-top: 15px;
+	margin: 20px auto 0;
+}
+
+.name{
+	text-align: center;
 }
 
 .contacts img{
-	width: 50px;
-	height: 50px;
-	margin: 5px;
+	width: 45px;
+	height: 45px;
+	margin: 10px;
+	border: 3px solid #fff0bd;
+	border-radius: 100%;
 }
+
+.contacts img:hover{
+
+	transform: rotate(360deg);
+	transition: transform 0.5s ease-in;
+}
+
 h1{
 	color: #fff0bd;
 	font-family: 'Exodus';
-	font-size: 60px;
-	letter-spacing: 7px;
-	border-bottom: 4px solid #1e1e1e;
-	padding-left: 30px;
+	font-size: 50px;
+	letter-spacing: 15px;
 }
 
 h2{
 	font-size: 20px;
-	color: #fff0bd;
+	font-family: 'TTDrugsThin';
+	color: white;
 	letter-spacing: 7px;
-	font-size: 25px;
-	margin-top: 15px;
-	padding-left: 100px; 
+	font-size: 25px; 
+	
 }
 
-h3{
-	margin-top: auto;
-}
-
-.img{
-	height: 150px;
-	position: relative;
-}
-
-img{
-	position: relative;
-	z-index: 3;
-}
-
-
-.title{
-	 height: 150px;
-	 text-align: center;
-
-}
-header img{
-	width: 150px;
+.photo{
+	height: 170px;
 	border-radius: 100%;
-
 }
+
+
+/* -------------------------------Main--------------------------------------- */
 
 main{
-	height: 600px;
-	max-width: 1024px;
+	width: 1024px;
 	margin: auto;
-}
-
-.left{
-	background-color: #c2c8c5aa;
-	height: 200px;
-	width: 35%;
-	font-family: 'AlgeriusRough';
-	font-size: 40px;
-	color: black;
-  text-align: center;
-
-}
-
-.right{
-	background-color: #808080aa;
-	width: 65%;
-	height: 200px;
-	font-size: 20px;
 }
 
 section{
 	display: flex;
+	height: 300px;
+	width: 1024;
 }
 
+main div[class*="left"] {
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	font-family: 'TTDrugsThin';
+	background-color: #000000aa;
+	color: #fff0bd;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #fff0bd;
+	
+}
+
+main div[class*="right"] {
+	width: 70%;
+	height: 100%;
+	font-family: 'TTDrugsThin';
+	color: white;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000aa;
+	box-sizing: border-box;
+	padding: 40px;
+}
+
+main h3{
+	letter-spacing: 7px;
+}
+
+main span{
+	color: white;
+	font-size: 25px;
+}
+
+li{
+	display: inline-block;
+	width: 270px;
+	height: 40px;
+	margin: 15px;
+	list-style-type: none;
+	font-family: 'TTDrugsThin';
+	font-weight: bolder;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: white;
+}
+
+.lvl{
+	width: 270px;
+	height: 10px;
+	border: 2px solid #fff0bd;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 8px;
+}
+
+.css:after{
+	content: '';
+	position: absolute;
+	background: #fff0bd;
+	width: 30%;
+	height: 100%;
+	left: 0;
+}
+
+.html:after{
+	content: '';
+	position: absolute;
+	background: #fff0bd;
+	width: 40%;
+	height: 100%;
+	left: 0;
+}
+
+.js:after{
+	content: '';
+	position: absolute;
+	background: #fff0bd;
+	width: 40%;
+	height: 100%;
+	left: 0;
+}
+
+.git:after{
+	content: '';
+	position: absolute;
+	background: #fff0bd;
+	width: 25%;
+	height: 100%;
+	left: 0;
+}
+
+.node:after{
+	content: '';
+	position: absolute;
+	background: #fff0bd;
+	width: 20%;
+	height: 100%;
+	left: 0;
+}
+
+.eng:after{
+	content: '';
+	position: absolute;
+	background: #fff0bd;
+	width: 40%;
+	height: 100%;
+	left: 0;
+}
+
+.button{
+	width: 100px;
+	height: 40px;
+	background: #fff0bd;
+	border-radius: 10px;
+	margin: 50px;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	font-weight: 900;
+	text-align: center;
+	padding-top: 10px; 
+	box-sizing: border-box;
+	color: black;
+
+}
+
+.button:hover{
+	background: white;
+}
+
+a, a:visited, a:active {
+	color: inherit;
+	text-decoration: none;
+  }
+
+/* ----------------------------------Footer--------------------------------- */
 
 footer{
 	height: 100px;
-	max-width: 1024px;
-	background-color: #312b2faa;
+	width: 1024px;
 	margin: auto;
+	background: #000000aa;
+	border-top: 1px solid #fff0bd;
 }
 
-
+footer {
+	text-align: center;
+	font-size: 30px;
+	color: #fff0bd;
+	font-family: 'TTDrugsThin';
+	padding-top: 40px;
+}

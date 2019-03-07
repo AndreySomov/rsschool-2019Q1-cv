@@ -25,7 +25,7 @@ body{
 header{
 	height: 250px;
   width: 1024px;
-	background-color:#000000aa;
+	background-color:#161616aa;
 	margin: auto;
 	display: flex;
 	
@@ -60,7 +60,7 @@ header{
 .contacts img{
 	width: 45px;
 	height: 45px;
-	margin: 10px;
+	margin: 20px;
 	border: 3px solid #fff0bd;
 	border-radius: 100%;
 }
@@ -98,6 +98,7 @@ h2{
 main{
 	width: 1024px;
 	margin: auto;
+	background: #161616aa;
 }
 
 section{
@@ -111,7 +112,6 @@ main div[class*="left"] {
 	height: 100%;
 	text-align: center;
 	font-family: 'TTDrugsThin';
-	background-color: #000000aa;
 	color: #fff0bd;
 	font-size: 30px;
 	display: flex;
@@ -130,7 +130,6 @@ main div[class*="right"] {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #000000aa;
 	box-sizing: border-box;
 	padding: 40px;
 }
@@ -221,12 +220,12 @@ li{
 }
 
 .button{
-	width: 100px;
-	height: 40px;
+	width: 130px;
+	height: 50px;
 	background: #fff0bd;
 	border-radius: 10px;
 	margin: 50px;
-	font-size: 20px;
+	font-size: 30px;
 	font-family: 'Times New Roman';
 	font-weight: 900;
 	text-align: center;
@@ -251,7 +250,7 @@ footer{
 	height: 100px;
 	width: 1024px;
 	margin: auto;
-	background: #000000aa;
+	background: #161616aa;
 	border-top: 1px solid #fff0bd;
 }
 

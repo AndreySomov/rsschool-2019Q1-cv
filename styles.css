@@ -26,7 +26,7 @@ header{
 	height: 250px;
   width: 1024px;
 	background-color:#161616aa;
-	margin: 30px auto 0;
+	margin: auto;
 	display: flex;
 	
 }
@@ -232,7 +232,7 @@ a, a:visited, a:active {
 footer{
 	height: 100px;
 	width: 1024px;
-	margin: 0 auto 30px;
+	margin: auto ;
 	background: #161616aa;
 	border-top: 1px solid #fff0bd;
 	text-align: center;
